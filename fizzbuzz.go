@@ -4,11 +4,11 @@ import "fmt"
 func fizzBuzz(){
   for i := 1; i < 100; i++  {
     if i % 3  == 0 && i % 5 == 0 {
-      fmt.Println("FIZZBUZZ!\n")
+      fmt.Println("FIZZBUZZ!")
     } else if i % 3 == 0 {
-      fmt.Println("FIZZ!\n")
+      fmt.Println("FIZZ!")
     } else if i % 5 == 0 {
-      fmt.Println("BUZZ!\n")
+      fmt.Println("BUZZ!")
     } else {
       fmt.Println(i)
     }
